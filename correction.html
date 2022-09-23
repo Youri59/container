@@ -1,0 +1,373 @@
+<html>
+	<head>
+		<title>Titre de la page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3dea7fbc93.js" crossorigin="anonymous"></script>
+	</head>
+
+	  <body>
+
+      <style>
+        header{
+          box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+          z-index: 1;
+          position: fixed;
+          width: 100%;
+          background: #fff;
+         
+        }
+
+       
+
+        #insta
+        {
+          background: #EEEEEE;
+        }
+
+        footer
+        {
+          background: black;
+          color: #fff;
+        }
+
+        .row
+        {
+          width: 100%;
+        }
+
+        #slider
+        {
+          padding-top: 100px;
+        }
+
+        @media screen and (max-width: 1200px) 
+          {
+            #slider
+            {
+              padding-top: 60px;
+            }
+          }
+        #content h3{
+          color: #f66e08;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+
+        #content h2{
+          color: #000;
+          margin-bottom: 45px;
+          font-size: 36px;
+          font-weight: 200;
+        }
+
+        #content p{
+          font-weight: 300;
+          font-size: 18px;
+        }
+
+        #content p span{
+          color:#f66e08
+        }
+
+        #content p a
+        {
+          color:#f66e08;
+          font-weight: bold;
+          float: right;
+        }
+
+        #content, #insta, #contact
+        {
+          padding: 125px 0;
+        }
+        #insta .col-6
+        {
+          padding: 1px;
+        }
+
+        #insta .col-md-4
+        {
+          padding: 1px;
+        }
+
+        #insta .col-lg-2
+        {
+          padding: 1px;
+        }
+
+        #insta span
+        {
+          color: #f66e08;
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 700;
+        }
+
+        #insta h2
+        {
+          margin-bottom: 45px;
+          font-size: 36px;
+          font-weight: 200;
+        }
+
+        #insta button {
+          background-color: #f66e08;
+          color: #fff;
+          padding: 4px 70px;
+          transition: 0.5s;
+          font-size: 20px;
+          font-weight: 700;
+        }
+
+        #insta button:hover {
+          background-color: #000;
+        }
+
+
+        #contact h3
+        {
+          color: #f66e08;
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 700;
+        }
+
+        #contact h2
+        {
+          margin-bottom: 45px;
+          font-size: 36px;
+          font-weight: 200;
+        }
+        #contact h4
+        {
+          margin-top: 3rem;
+          font-weight: 300;
+          font-size: 18px;
+        }
+
+        #contact h4 span
+        {
+          color: #f66e08;
+        }
+
+        .nav-link
+        {
+          color: #000 !important;
+          font-size: 18px;
+        }
+
+        .nav-link:hover
+        {
+          color: #f66e08 !important;
+          font-size: 18px;
+        }
+
+        .nav-item .active2
+        {
+          color: #f66e08 !important;
+          font-size: 18px;
+
+        }
+
+        .navbar-nav li
+        {
+          padding:8px 20px
+        }
+
+        nav
+        {
+          float: right;
+          margin-top: 15px;
+        }
+      </style>
+      
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img src="https://socasa.lu/assets/img/logo_SoCasa.svg">
+            </div>
+            <div class="col-8">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active2" aria-current="page" href="#">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">A propos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Inspiration</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+
+      <section id="slider">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://socasa.lu/uploads/sliders/38bdab6459adbb95c5feb042437335fc.jpeg" class="d-block w-100" alt="...">
+            </div>
+           
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </section>
+
+      <section id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6" >
+              <h3>eclectic home designer</h3>
+             
+              <h2>À propos de So Casa</h2>
+              <p>
+              Pour comprendre qui je suis, il faut aller chercher d’où je viens. J’ai eu la chance, dans mon parcours professionnel, de <span>voyager</span> beaucoup. Ceci m’a permis de découvrir des lieux insolites, des espaces <span>majestueux</span>, des hôtels incroyables mais aussi des savoir-faire, des matières hautes en couleurs, des coutumes, des traditions et des gens fantastiques. Un vrai régal pour les yeux et pour le cœur. De ce parcours, est née la <span>passion</span> des objets, des couleurs, des tissus, des matières et des ambiances créées par les <span>aménagements.</span>
+              <br><br>
+              Aujourd’hui diplômée en Décoration d’Intérieur, je vous propose de partager toute cette énergie qui m’habite quand il s’agit de repenser un lieu, de le rafraîchir ou de lui donner une nouvelle fonction.
+              <br><br>
+              Que ce soit pour des habitations <span>privées</span> ou des espaces <span>professionnels</span>, avec vous, j’imagine des projets réalisables en tenant compte de vos envies, de vos attentes et de votre budget. Du <span>sur mesure</span> pour une décoration <span>personnalisée.</span>
+              <br><br>
+              <a>Vous avez un projet et vous souhaitez en discuter ?</a>
+              </p>
+              
+            </div>
+            <div class="col-12 col-md-6"><img src="https://socasa.lu/uploads/9a726a62fec5e61dfe2251cb5c89e55e.png" class="img-fluid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="insta">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <span><i class="fa fa-instagram"></i> #socasalux</span>
+              <h2>Besoin d'inspiration?</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+            <div class="col-6 col-md-4 col-lg-2"><img src="https://socasa.lu/instagram/18006192349372919.jpg" class="img-fluid"></div>
+           
+          </div>
+          <div class="row mt-4">
+            <div class="col-12 text-center">
+              <button class="btn btn-warning "><i class="fa fa-instagram"></i> S'abonner</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3>véronique jacob</h3>
+            </div>
+            <div class="col-12 text-center">
+              <h2>Contactez moi</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="https://socasa.lu/assets/img/tel.svg">
+              <br>
+              <h4><span>T.</span> +352 (0)621 390 101</h4>
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="https://socasa.lu/assets/img/com.svg">
+              <br>
+              <h4><span>M.</span> info@socasa.lu</h4>
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="https://socasa.lu/assets/img/hour.svg">
+              <br>
+              <h4>
+                Du lundi au samedi:
+                <br>
+                9H00 à 12H00 / 13H00 à 17H30
+              </h4>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 p-4">
+              © 2019 - 2021 SOCASA. Tous droits réservés.
+            </div>
+            <div class="col-6 text-end p-4">
+              Mentions légales
+            </div>
+          </div>
+        </div>
+      </footer>
+
+		
+   	</body>
+  </html>
